@@ -66,9 +66,9 @@ if prompt1:
 
 
 
-    # # Write a streamlit expander
-    # with st.expander('Document Similarity Search'):
-    #     # Find the relevant chunk
-    #     for i, doc in enumerate(response['answer']):
-    #         st.write(doc.page_content)
-    #         st.write('------------------------------------')
+    # Write a streamlit expander
+    with st.expander('Document Similarity Search'):
+        # Find the relevant chunk
+        for i, doc in enumerate(response['answer']):
+            st.write(doc.page_content)
+            st.write('------------------------------------')
